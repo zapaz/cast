@@ -43,7 +43,7 @@ bsc3 = "https://bsc-dataseed.binance.org"
 nova = "https://nova.arbitrum.io/rpc"
 zkevm = "https://zkevm-rpc.com"
 era = "https://mainnet.era.zksync.io"
-
+fevm = "https://api.node.glif.io/rpc/v1"
 
 # TESTNETS
 bsctestnet = "https://rpc.ankr.com/bsc_testnet_chapel"
@@ -64,7 +64,7 @@ scroll = "https://alpha-rpc.scroll.io/l2"
 base = "https://goerli.base.org/"
 taiko = "https://rpc.a2.taiko.xyz"
 linea = "https://rpc.goerli.linea.build/"
-
+calib = "https://api.calibration.node.glif.io/rpc/v1"
 
 [etherscan]
 mainnet = { key = "${ETHERSCAN_API_KEY}" }
