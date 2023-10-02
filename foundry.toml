@@ -9,80 +9,115 @@ auto_detect_solc = true
 
 [rpc_endpoints]
 mainnet = "https://rpc.ankr.com/eth"
-mainnet1 = "https://mainnet.infura.io/v3/${INFURA_API_KEY}"
-mainnet2 = "https://eth-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}"
+mainnet2 = "https://mainnet.infura.io/v3/${INFURA_API_KEY}"
+mainnet3 = "https://eth-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}"
 
 arbitrum = "https://arbitrum-mainnet.infura.io/v3/${INFURA_API_KEY}"
-arbitrum1 = "https://arbitrum-mainnet.infura.io/v3/${INFURA_API_KEY}"
 arbitrum2 = "https://arb-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}"
 
 optimism = "https://rpc.ankr.com/optimism"
-optimism1 = "https://optimism-mainnet.infura.io/v3/${INFURA_API_KEY}"
-optimism2 = "https://opt-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY_OPTIMISM}"
-optimism3 = "https://mainnet.optimism.io"
+optimism2 = "https://optimism-mainnet.infura.io/v3/${INFURA_API_KEY}"
+optimism3 = "https://opt-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY_OPTIMISM}"
+optimism4 = "https://mainnet.optimism.io"
 
-base = "https://rpc.ankr.com/base"
 linea = "https://rpc.linea.build/"
 
+base = "https://rpc.ankr.com/base"
+zora = "https://rpc.zora.energy"
+pgn = "https://rpc.publicgoods.network"
+
 polygon = "https://polygon-mainnet.infura.io/v3/${INFURA_API_KEY}"
-polygon1 = "https://polygon-mainnet.infura.io/v3/${INFURA_API_KEY}"
 polygon2 = "https://polygon-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY_POLYGON}"
 polygon3 = "https://polygon-rpc.com/"
 
+polygon-zkevm = "https://zkevm-rpc.com"
+
 gnosis = "https://rpc.ankr.com/gnosis"
-gnosis1 = "https://rpc.gnosis.io"
+gnosis2 = "https://rpc.gnosis.io"
 
 avalanche = "https://rpc.ankr.com/avalanche"
-avalanche1 = "https://avalanche-mainnet.infura.io/v3/${INFURA_API_KEY}"
+avalanche2 = "https://avalanche-mainnet.infura.io/v3/${INFURA_API_KEY}"
 avalanche3 = "https://api.avax.network/ext/bc/C/rpc"
 
 fantom = "https://rpc.ankr.com/fantom"
+fantom2 = "https://rpc.ftm.tools"
 fantom3 = "https://rpcapi.fantom.network"
-fantom4 = "https://rpc.ftm.tools"
 
 bsc = "https://rpc.ankr.com/bsc"
-bsc3 = "https://bsc-dataseed.binance.org"
+bsc2 = "https://bsc-dataseed.binance.org"
 
 nova = "https://nova.arbitrum.io/rpc"
 zkevm = "https://zkevm-rpc.com"
 era = "https://mainnet.era.zksync.io"
 fevm = "https://api.node.glif.io/rpc/v1"
+scroll = "https://rpc.scroll.io"
 
-# TESTNETS
+# testnets
 bsctestnet = "https://rpc.ankr.com/bsc_testnet_chapel"
-bsctestnet3 = "https://data-seed-prebsc-1-s1.binance.org:8545"
+bsctestnet2 = "https://data-seed-prebsc-1-s1.binance.org:8545"
 
 sepolia = "https://sepolia.infura.io/v3/${INFURA_API_KEY}"
-sepolia1 = "https://sepolia.infura.io/v3/${INFURA_API_KEY}"
-sepolia3 = "https://rpc.sepolia.com"
+sepolia2 = "https://rpc.sepolia.com"
+
+holesky = "https://ethereum-holesky.publicnode.com"
 
 goerli = "https://goerli.infura.io/v3/${INFURA_API_KEY}"
-goerli1 = "https://goerli.infura.io/v3/${INFURA_API_KEY}"
 goerli2 = "https://eth-goerli.g.alchemy.com/v2/${ALCHEMY_API_KEY_GOERLI}"
 
+optimism-goerli = "https://optimism-goerli.publicnode.com"
+
 mumbai = "https://rpc.ankr.com/polygon_mumbai"
-mumbai1 = "https://polygon-mumbai.infura.io/v3/${INFURA_API_KEY}"
+mumbai2 = "https://polygon-mumbai.infura.io/v3/${INFURA_API_KEY}"
+polygon-zkevm-testnet = "https://rpc.public.zkevm-test.net"
 
-basetestnet = "https://rpc.ankr.com/base_goerli"
-basetestnet1 = "https://goerli.base.org/"
-lineatestnet = "https://rpc.goerli.linea.build/"
+base-goerli = "https://goerli.base.org/"
+base-goerli2 = "https://rpc.ankr.com/base_goerli"
+zora-testnet = "https://testnet.rpc.zora.co"
+mode-testnet = "https://sepolia.mode.network"
+pgn-sepolia = "https://sepolia.publicgoods.network"
 
-scroll = "https://alpha-rpc.scroll.io/l2"
+linea-testnet = "https://rpc.goerli.linea.build/"
 taiko = "https://rpc.a2.taiko.xyz"
 calib = "https://api.calibration.node.glif.io/rpc/v1"
 
-[etherscan]
-mainnet = { key = "${ETHERSCAN_API_KEY}" }
-goerli = { key = "${ETHERSCAN_API_KEY}" }
-sepolia = { key = "${ETHERSCAN_API_KEY}" }
+chiado = "https://rpc.chiadochain.net"
+telostestnet = "https://testnet.telos.net/evm"
+local = "http://127.0.0.1:8545"
 
-arbitrum = { key = "${ETHERSCAN_API_KEY_ARBITRUM }" }
-optimism = { key = "${ETHERSCAN_API_KEY_OPTIMISM}" }
+calibration = "${CALIBRATIONNET_RPC_URL}"
+scroll-alpha-testnet = "https://alpha-rpc.scroll.io/l2"
+scroll-sepolia = "https://sepolia-rpc.scroll.io/"
+
+[etherscan]
+mainnet = { key = "${ETHERSCAN_API_KEY_ETHEREUM}" }
+gnosis =  { key = "${ETHERSCAN_API_KEY_GNOSIS}" }
 
 base = { key = "${ETHERSCAN_API_KEY_BASE}" }
 linea = { key = "${ETHERSCAN_API_KEY_LINEA}" }
 
+arbitrum = { key = "${ETHERSCAN_API_KEY_ARBITRUM }" }
+optimism = { key = "${ETHERSCAN_API_KEY_OPTIMISM}" }
+
 polygon = { key = "${ETHERSCAN_API_KEY_POLYGON}" }
+
 bsc = { key = "${ETHERSCAN_API_KEY_BINANCE}" }
 fantom = { key = "${ETHERSCAN_API_KEY_FANTOM}" }
 avalanche = { key = "${ETHERSCAN_API_KEY_AVALANCHE}" }
+
+# testnets
+goerli = { key = "${ETHERSCAN_API_KEY_ETHEREUM}" }
+sepolia = { key = "${ETHERSCAN_API_KEY_ETHEREUM}" }
+holesky = { key = "${ETHERSCAN_API_KEY_ETHEREUM}" }
+
+optimism-goerli = { key = "${ETHERSCAN_API_KEY_OPTIMISM}" }
+base-goerli = { key = "${ETHERSCAN_API_KEY_BASE}" }
+chiado =  { key = "${ETHERSCAN_API_KEY_GNOSIS}" }
+
+# possible values: mainnet, morden, ropsten, rinkeby, goerli, kovan, sepolia,
+# optimism, optimism-kovan, optimism-goerli, arbitrum, arbitrum-testnet, arbitrum-goerli, arbitrum-nova,
+# cronos, cronos-testnet, rsk, bsc, bsc-testnet, poa, sokol, scroll-alpha-testnet, metis, xdai, polygon,
+# mumbai, polygon-zkevm, polygon-zkevm-testnet, fantom, fantom-testnet, moonbeam, moonbeam-dev, moonriver,
+# moonbase, dev, anvil-hardhat, evmos, evmos-testnet, chiado, oasis, emerald, emerald-testnet,
+# filecoin-mainnet, filecoin-hyperspace-testnet, avalanche, fuji, celo, celo-alfajores, celo-baklava,
+# aurora, aurora-testnet, canto, canto-testnet, boba, base, base-goerli, linea, linea-testnet, zksync, zksync-testnet
+
