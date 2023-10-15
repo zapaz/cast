@@ -1,0 +1,3 @@
+[submodule "lib/forge-deploy-lite"]
+	path = lib/forge-deploy-lite
+	url = https://github.com/zapaz/forge-deploy-lite

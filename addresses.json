@@ -1,0 +1,22 @@
+{
+  "1": {
+    "Hi": "0xbe81ed75f7b9bdec5d17d23c4609986b73b382b8",
+    "chainName": "mainnet"
+  },
+  "11155111": {
+    "Hi": "0x47975ba3c3A66683de3EF351Fe40966FF743BAaA",
+    "chainName": ""
+  },
+  "17000": {
+    "Hi": "0x5C99e5789E6de95e26155A9FC1a85AC2B434A08A",
+    "chainName": "holesky"
+  },
+  "31337": {
+    "Hi": "0xbdEd0D2bf404bdcBa897a74E6657f1f12e5C6fb6",
+    "chainName": ""
+  },
+  "59144": {
+    "Hi": "0xb5c8CB0846317d82af2DbF90713716B01A2f680a",
+    "chainName": ""
+  }
+}
