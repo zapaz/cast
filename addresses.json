@@ -5,18 +5,38 @@
   },
   "11155111": {
     "Hi": "0x47975ba3c3A66683de3EF351Fe40966FF743BAaA",
-    "chainName": ""
+    "chainName": "sepolia"
+  },
+  "167007": {
+    "Hi": "0xb5c8CB0846317d82af2DbF90713716B01A2f680a",
+    "chainName": "taiko-jolnir"
   },
   "17000": {
     "Hi": "0x5C99e5789E6de95e26155A9FC1a85AC2B434A08A",
     "chainName": "holesky"
   },
   "31337": {
-    "Hi": "0xbdEd0D2bf404bdcBa897a74E6657f1f12e5C6fb6",
-    "chainName": ""
+    "Hi": "0xb5c8CB0846317d82af2DbF90713716B01A2f680a",
+    "chainName": "anvil"
+  },
+  "5000": {
+    "Hi": "0x02FEB47bFD082f76C757c3a750ea10807C529e5f",
+    "chainName": "mantle"
+  },
+  "5001": {
+    "Hi": "0xb5c8CB0846317d82af2DbF90713716B01A2f680a",
+    "chainName": "mantle-testnet"
+  },
+  "534351": {
+    "Hi": "0xdb7f48EDceC2F198B4d8b164856D821279C35F15",
+    "chainName": "scroll-testnet"
+  },
+  "59140": {
+    "Hi": "0xaBC576652433154Ab5F9cF1A2F4f0457d7690cc6",
+    "chainName": "linea-testnet"
   },
   "59144": {
-    "Hi": "0xb5c8CB0846317d82af2DbF90713716B01A2f680a",
-    "chainName": ""
+    "Hi": "0x4DD3553486c0D29216e2f4E8aa808cc671Aab708",
+    "chainName": "linea"
   }
 }

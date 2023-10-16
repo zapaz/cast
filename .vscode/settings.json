@@ -1,0 +1,20 @@
+{
+  "favorites.resources": [
+    {
+      "filePath": "foundry.toml",
+      "group": "Default"
+    },
+    {
+      "filePath": "addresses.json",
+      "group": "Default"
+    },
+    {
+      "filePath": ".env",
+      "group": "Default"
+    },
+    {
+      "filePath": "src/Hi.sol",
+      "group": "Default"
+    }
+  ]
+}

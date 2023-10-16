@@ -57,6 +57,8 @@ nova = "https://nova.arbitrum.io/rpc"
 scroll = "https://rpc.scroll.io"
 zkevm = "https://zkevm-rpc.com"
 
+mantle = "https://rpc.ankr.com/mantle"
+
 # testnets
 bsctestnet = "https://rpc.ankr.com/bsc_testnet_chapel"
 bsctestnet2 = "https://data-seed-prebsc-1-s1.binance.org:8545"
@@ -82,16 +84,20 @@ pgn-sepolia = "https://sepolia.publicgoods.network"
 zora-testnet = "https://testnet.rpc.zora.co"
 
 calib = "https://api.calibration.node.glif.io/rpc/v1"
- = "https://rpc.goerli.linea.build/"
-taiko = "https://rpc.a2.taiko.xyz"
+linea-testnet = "https://rpc.goerli.linea.build/"
 
 chiado = "https://rpc.chiadochain.net"
-local = "http://127.0.0.1:8545"
-telostestnet = "https://testnet.telos.net/evm"
+telos-testnet = "https://testnet.telos.net/evm"
 
 calibration = "${CALIBRATIONNET_RPC_URL}"
 scroll-alpha-testnet = "https://alpha-rpc.scroll.io/l2"
 scroll-sepolia = "https://sepolia-rpc.scroll.io/"
+
+mantle-testnet = "https://rpc.testnet.mantle.xyz"
+taiko-jolnir = "https://rpc.jolnir.taiko.xyz"
+
+anvil = "http://127.0.0.1:8545"
+local = "http://127.0.0.1:8545"
 
 [etherscan]
 gnosis = {key = "${ETHERSCAN_API_KEY_GNOSIS}"}
@@ -109,12 +115,17 @@ avalanche = {key = "${ETHERSCAN_API_KEY_AVALANCHE}"}
 bsc = {key = "${ETHERSCAN_API_KEY_BINANCE}"}
 fantom = {key = "${ETHERSCAN_API_KEY_FANTOM}"}
 
+mantle = {key = "", url = "https://explorer.mantle.xyz/api"}
+
 # testnets
 goerli = {key = "${ETHERSCAN_API_KEY_ETHEREUM}"}
+holesky = {key = "${ETHERSCAN_API_KEY}", url = "https://api-holesky.etherscan.io/api"}
 sepolia = {key = "${ETHERSCAN_API_KEY_ETHEREUM}"}
-# holesky = {key = "${ETHERSCAN_API_KEY_ETHEREUM}"}
-holesky = { key = "${ETHERSCAN_API_KEY}", url = "https://api-holesky.etherscan.io/api" }
 
 base-goerli = {key = "${ETHERSCAN_API_KEY_BASE}"}
+linea-testnet = {key = "${ETHERSCAN_API_KEY_LINEA}", url = "https://api.lineascan.build/api"}
+
 chiado = {key = "${ETHERSCAN_API_KEY_GNOSIS}"}
 optimism-goerli = {key = "${ETHERSCAN_API_KEY_OPTIMISM}"}
+
+mantle-testnet = {key = "", url = "https://explorer.testnet/mantle.xyz/api"}
