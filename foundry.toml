@@ -109,6 +109,8 @@ linea = {key = "${ETHERSCAN_API_KEY_LINEA}"}
 arbitrum = {key = "${ETHERSCAN_API_KEY_ARBITRUM }"}
 optimism = {key = "${ETHERSCAN_API_KEY_OPTIMISM}"}
 
+scroll = {key = "${ETHERSCAN_API_KEY_SCROLL}", url = "https://api.scrollscan.com/api"}
+
 polygon = {key = "${ETHERSCAN_API_KEY_POLYGON}"}
 
 avalanche = {key = "${ETHERSCAN_API_KEY_AVALANCHE}"}

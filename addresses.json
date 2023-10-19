@@ -31,6 +31,10 @@
     "Hi": "0xdb7f48EDceC2F198B4d8b164856D821279C35F15",
     "chainName": "scroll-testnet"
   },
+  "534352": {
+    "Hi": "0xFc008F04042530Bf0bd8333FBe45470b514bD847",
+    "chainName": "scroll"
+  },
   "59140": {
     "Hi": "0xaBC576652433154Ab5F9cF1A2F4f0457d7690cc6",
     "chainName": "linea-testnet"
