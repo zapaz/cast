@@ -6,7 +6,7 @@ import {Hi} from "../src/Hi.sol";
 
 contract DeployHi is DeployLite {
     function deployHi() public returns (address hi) {
-        vm.broadcast();
+        vm.broadcast(vm.envAddress("DEPLOYER"));
         hi = address(new Hi());
     }
 

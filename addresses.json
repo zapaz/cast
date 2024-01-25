@@ -3,9 +3,17 @@
     "Hi": "0xbe81ed75f7b9bdec5d17d23c4609986b73b382b8",
     "chainName": "mainnet"
   },
+  "10200": {
+    "Hi": "0xc3C05919D182b568D18ef7658999b99b606D84c5",
+    "chainName": "chiado-gnosis-testnet"
+  },
   "11155111": {
     "Hi": "0x47975ba3c3A66683de3EF351Fe40966FF743BAaA",
     "chainName": "sepolia"
+  },
+  "1351057110": {
+    "Hi": "0xb5c8CB0846317d82af2DbF90713716B01A2f680a",
+    "chainName": "chaos-skale-testnet"
   },
   "167007": {
     "Hi": "0xb5c8CB0846317d82af2DbF90713716B01A2f680a",
@@ -16,8 +24,12 @@
     "chainName": "holesky"
   },
   "31337": {
-    "Hi": "0xb5c8CB0846317d82af2DbF90713716B01A2f680a",
+    "Hi": "0x90193C961A926261B756D1E5bb255e67ff9498A1",
     "chainName": "anvil"
+  },
+  "5": {
+    "Hi": "0x515CA7Be7945eA3E178e5220157Ca4A9Ed4a036e",
+    "chainName": "goerli"
   },
   "5000": {
     "Hi": "0x02FEB47bFD082f76C757c3a750ea10807C529e5f",
@@ -35,6 +47,10 @@
     "Hi": "0xFc008F04042530Bf0bd8333FBe45470b514bD847",
     "chainName": "scroll"
   },
+  "58008": {
+    "Hi": "0xA1327033D4fF3EDA65136DD3389dcf94e07eb55b",
+    "chainName": "pgn-sepolia"
+  },
   "59140": {
     "Hi": "0xaBC576652433154Ab5F9cF1A2F4f0457d7690cc6",
     "chainName": "linea-testnet"
@@ -42,5 +58,13 @@
   "59144": {
     "Hi": "0x4DD3553486c0D29216e2f4E8aa808cc671Aab708",
     "chainName": "linea"
+  },
+  "80001": {
+    "Hi": "0xA1327033D4fF3EDA65136DD3389dcf94e07eb55b",
+    "chainName": "mumbai-polygon-testnet"
+  },
+  "999": {
+    "Hi": "0x7d23abb92F626D66709Cdf670748a27787873a0d",
+    "chainName": "zora-testnet"
   }
 }
