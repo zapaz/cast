@@ -1,0 +1,19 @@
+{
+  "name": "cast",
+  "version": "0.0.0",
+  "author": "zapaz.eth",
+  "description": "cast script",
+  "devDependencies": {
+  },
+  "keywords": ["cast", "script"],
+  "license": "MIT",
+  "scripts": {
+    "deploy:hikredeum": "forge script script/DeployHiKredeum.s.sol",
+    "deploy:validate": "pnpm run deploy:hikredeum --fork-url $CHAIN --sender $SENDER",
+    "deploy:deploy": "pnpm run deploy:hikredeum --fork-url $CHAIN --sender $SENDER --account $ACCOUNT --broadcast",
+    "deploy:testnet": "SENDER=$TESTNET_SENDER ACCOUNT=$TESTNET_ACCOUNT pnpm deploy:deploy",
+    "deploy:mainnet": "SENDER=$MAINNET_SENDER ACCOUNT=$MAINNET_ACCOUNT pnpm deploy:deploy --verify",
+    "deploy:sepolia": "CHAIN=sepolia pnpm run deploy:testnet",
+    "deploy:gnosis": "CHAIN=gnosis pnpm run deploy:mainnet"
+  }
+}
