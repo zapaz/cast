@@ -63,6 +63,8 @@ zkevm = "https://zkevm-rpc.com"
 mantle = "https://rpc.ankr.com/mantle"
 mode = "https://mainnet.mode.network"
 
+dymension = "https://dymension-evm.blockpi.network/v1/rpc/public"
+
 # testnets
 
 bsctestnet = "https://rpc.ankr.com/bsc_testnet_chapel"
